@@ -1,0 +1,56 @@
+body{
+	font-family: Helvetica;
+	margin: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.content #topHead {
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	margin: 5px;
+	position: absolute;
+}
+#topHead #typeSentence {
+	background-color: #F7F7F7;
+	background-color: #F7F7F7;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 60%;
+	padding: 8px;
+	border-radius: 10px;
+	border: 2px solid #ddd;
+}
+#topHead span {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#mainContent {
+	z-index: -1;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+#mainContent #userTyped {
+    margin: 0;
+}
+
+#topHead p {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+.content input:focus {outline:0;}
